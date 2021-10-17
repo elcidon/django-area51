@@ -18,9 +18,9 @@ django-cors-headers = "*"
 pillow = "*"
 django-redis = "*"
 coverage = "*"
-pycrunch-engine = "*"
 ipython = "*"
 pre-commit = "*"
+pycrunch-engine = "*"
 
 [dev-packages]
 
