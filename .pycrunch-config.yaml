@@ -1,0 +1,9 @@
+# documentation https://pycrunch.com/docs/configuration-file
+engine:
+    runtime: django
+discovery:
+  exclusions:
+  - seed.py
+env:
+  DJANGO_SETTINGS_MODULE: setup.settings
+  DJANGO_ALLOW_ASYNC_UNSAFE: "false"
